@@ -9,3 +9,4 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/prueba', 'principal::index');
 $routes->get('/miestilo', 'principal::miestilo');
+$routes->get('/estilodisenio', 'principal::estilodisenio');

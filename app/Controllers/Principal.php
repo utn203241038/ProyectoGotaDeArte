@@ -13,4 +13,9 @@ class Principal extends BaseController
     {
         return view('Principal/miestilo');
     }
+
+    public function estilodisenio()
+    {
+        return view('Principal/estilodisenio');
+    }
 }
