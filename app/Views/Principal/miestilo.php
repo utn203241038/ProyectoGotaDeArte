@@ -1,4 +1,3 @@
-
 <!-- DEBUG-VIEW START 3 APPPATH\Views\Prueba\vista.php -->
 <!-- DEBUG-VIEW START 2 APPPATH\Views\Plantilla\layout.php -->
 <!DOCTYPE html>
@@ -52,20 +51,20 @@ void 0===window.kintMicrotimeInitialized&&(window.kintMicrotimeInitialized=1,win
     />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="<?= base_url('vendor/fonts/boxicons.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('vendorTemplate/fonts/boxicons.css'); ?>">
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="<?= base_url('vendor/css/core.css'); ?>" class="template-customizer-core-css">
-    <link rel="stylesheet" href="<?= base_url('vendor/css/theme-default.css'); ?>" class="template-customizer-theme-css">
+    <link rel="stylesheet" href="<?= base_url('vendorTemplate/css/core.css'); ?>" class="template-customizer-core-css">
+    <link rel="stylesheet" href="<?= base_url('vendorTemplate/css/theme-default.css'); ?>" class="template-customizer-theme-css">
     <link rel="stylesheet" href="<?= base_url('css/demo.css'); ?>">
 
-    <!-- Vendors CSS -->
-    <link rel="stylesheet" href="<?= base_url('vendor/libs/perfect-scrollbar/perfect-scrollbar.css'); ?>">
+    <!-- vendorTemplates CSS -->
+    <link rel="stylesheet" href="<?= base_url('vendorTemplate/libs/perfect-scrollbar/perfect-scrollbar.css'); ?>">
 
     <!-- Page CSS -->
 
     <!-- Helpers -->
-    <link rel="stylesheet" href="<?= base_url('vendor/js/helpers.js'); ?>">
+    <link rel="stylesheet" href="<?= base_url('vendorTemplate/js/helpers.js'); ?>">
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
@@ -104,24 +103,18 @@ void 0===window.kintMicrotimeInitialized&&(window.kintMicrotimeInitialized=1,win
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 
     <!-- Core JS -->
-    <!-- build:js assets/vendor/js/core.js -->
-    <!-- <script src="../assets/vendor/libs/jquery/jquery.js"></script> -->
-    <script src="<?= base_url('vendor/libs/jquery/jquery.js'); ?>"></script>
-    <!-- <script src="../assets/vendor/libs/popper/popper.js"></script> -->
-    <script src="<?= base_url('vendor/libs/popper/popper.js'); ?>"></script>
-    <!-- <script src="../assets/vendor/js/bootstrap.js"></script> -->
-    <script src="<?= base_url('vendor/js/bootstrap.js'); ?>"></script>
-    <!-- <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script> -->
-    <script src="<?= base_url('vendor/libs/perfect-scrollbar/perfect-scrollbar.js'); ?>"></script>
+    <!-- build:js assets/vendorTemplateTemplate/js/core.js -->
+    <script src="<?= base_url('vendorTemplate/libs/jquery/jquery.js'); ?>"></script>
+    <script src="<?= base_url('vendorTemplate/libs/popper/popper.js'); ?>"></script>
+    <script src="<?= base_url('vendorTemplate/js/bootstrap.js'); ?>"></script>
+    <script src="<?= base_url('vendorTemplate/libs/perfect-scrollbar/perfect-scrollbar.js'); ?>"></script>
 
-    <!-- <script src="../assets/vendor/js/menu.js"></script> -->
-    <script src="<?= base_url('vendor/js/menu.js'); ?>"></script>
+    <script src="<?= base_url('vendorTemplate/js/menu.js'); ?>"></script>
     <!-- endbuild -->
 
-    <!-- Vendors JS -->
+    <!-- vendorTemplates JS -->
 
     <!-- Main JS -->
-    <!-- <script src="../assets/js/main.js"></script> -->
     <script src="<?= base_url('js/main.js'); ?>"></script>
 
     <!-- Page JS -->
