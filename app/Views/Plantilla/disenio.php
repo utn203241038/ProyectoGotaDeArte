@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="/assets/" data-template="vertical-menu-template-free">
-
+<html lang="es" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="/assets/" data-template="vertical-menu-template-free">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
@@ -28,11 +27,10 @@
   <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
   <script src="<?= base_url('js/config.js'); ?>"></script>
 </head>
-
 <body>
-
+  <!-- Navbar de la pagina -->
   <?php echo $this->include("Plantilla/menu"); ?>
-
+  <!-- Vista correspondiente a la ruta -->
   <?php echo $this->renderSection("contenido"); ?>
 
   <footer class="content-footer footer">
@@ -57,5 +55,4 @@
 
   <?php echo $this->renderSection("scripts"); ?>
 </body>
-
 </html>
