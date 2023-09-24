@@ -6,6 +6,11 @@ class Principal extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
+        return view('Principal/index');
+    }
+
+    public function miestilo()
+    {
+        return view('Principal/miestilo');
     }
 }
