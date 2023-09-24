@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
-  <title>Navbar - UI elements | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+  <title><?php echo $title?></title>
   <meta name="description" content="" />
+  <link rel="shortcut icon" href="<?php echo base_url('img/recursos/exampleLogo.jpg')?>">
   <!-- Favicon -->
   <link rel="stylesheet" href="<?= base_url('img/favicon/favicon.ico'); ?>">
   <!-- Fonts -->
@@ -34,7 +35,7 @@
 
   <?php echo $this->renderSection("contenido"); ?>
 
-  <footer>
+  <footer class="content-footer footer">
     <?php echo $this->include("Plantilla/piePagina"); ?>
   </footer>
   <!-- Core JS -->
