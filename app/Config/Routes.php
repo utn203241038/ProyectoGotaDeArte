@@ -20,7 +20,7 @@ $routes->get('/sign_in', 'Autenticacion::ingresar');
 $routes->get('/subasta', 'Subasta::listaSubastas');
 
 $routes->get('/solicita_cuadro', 'CuadroArte::solicitarCuadro');
-
+/* Prueba red git */
 
 /* TESTS */
 $routes->get('/prueba', 'Principal::index');
