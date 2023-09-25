@@ -4,7 +4,21 @@ namespace App\Controllers;
 
 class Principal extends BaseController
 {
-    public function index(): string
+    public function index(): string{
+        $dataMenu = [
+            'userName' => 'John Doe',
+        ];
+        $dataContenido = [
+            'titulo' => 'Hello, world!',
+        ];
+        $dataPiePagina = [
+            'fecha' => date('Y'),
+        ];
+        $data = $dataMenu + $dataContenido + $dataPiePagina;
+        return view('Principal/index',$data);
+    }
+
+    public function index2(): string
     {
         $dataMenu = [
             'userName' => 'John Doe',
@@ -19,12 +33,12 @@ class Principal extends BaseController
         return view('Principal/index');
     }
 
-    public function miestilo()
+    public function miestilo(): string
     {
         return view('Principal/miestilo');
     }
 
-    public function estilodisenio()
+    public function estilodisenio(): string
     {
         $dataMenuDisenio = [
             'title' => 'GOTA DE ARTE - Galería de arte | Subasta de cuadros',
