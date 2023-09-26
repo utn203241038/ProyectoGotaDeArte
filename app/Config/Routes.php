@@ -16,7 +16,7 @@ $routes->get('/politicadeprivacidad', 'Principal::politicaPrivacidad');
 
 $routes->get('/login', 'Autenticacion::login');
 $routes->get('/sign_in', 'Autenticacion::ingresar');
-
+//Hola soy German!!
 $routes->get('/subasta', 'Subasta::listaSubastas');
 
 $routes->get('/solicita_cuadro', 'CuadroArte::solicitarCuadro');
